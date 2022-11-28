@@ -9584,6 +9584,7 @@ table {
         -ms-flex-align: center;
             align-items: center; }
   .header-logo {
+    cursor: pointer;
     background: url(../images/lumilogo.png) no-repeat center;
     background-size: contain;
     width: 90px;
