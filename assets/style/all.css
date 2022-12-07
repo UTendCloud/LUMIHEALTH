@@ -9649,7 +9649,7 @@ table {
     transition: .5s; }
 
 .footer {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #18666e;
   height: 260px;
   display: -webkit-box;
@@ -9672,7 +9672,7 @@ table {
         width: 125px;
         margin-left: 24px; } }
   .footer-list a {
-    color: #FFFFFF; }
+    color: #ffffff; }
   .footer-list img {
     height: 90px; }
   .footer-copy h3, .footer-copy .h3 {
@@ -9684,7 +9684,7 @@ table {
     padding: 0 24px;
     padding-top: 24px; }
     .footer-page-item a {
-      color: #FFFFFF;
+      color: #ffffff;
       font-size: 20px; }
       .footer-page-item a:hover {
         -webkit-transition: .8s;
@@ -9826,12 +9826,12 @@ table {
           column-gap: 48px;
   margin-bottom: 24px; }
   .modal-signin a {
-    color: #3e6bb8;
-    border: 1px solid #3e6bb8;
+    color: #18666e;
+    border: 1px solid #18666e;
     border-radius: 12px;
     padding: 6px 24px; }
     .modal-signin a:hover {
-      background-color: #3e6bb8;
+      background-color: #18666e;
       color: #ffffff;
       -webkit-transition: .5s;
       -o-transition: .5s;
@@ -9853,7 +9853,7 @@ table {
     .modal-login {
       width: 376px; } }
   .modal-login-header {
-    background-color: #3e6bb8;
+    background-color: #18666e;
     border-radius: 12px 12px 0 0;
     padding: 24px; }
     @media (max-width: 767px) {
@@ -9875,7 +9875,7 @@ table {
     .modal-login-body a {
       color: #ffffff;
       border: 1px solid #ffffff;
-      background-color: #3e6bb8;
+      background-color: #18666e;
       border-radius: 8px;
       text-align: center;
       padding: 8px 0;
@@ -9926,7 +9926,7 @@ table {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      border: 1px solid #3e6bb8;
+      border: 1px solid #18666e;
       border-radius: 12px;
       cursor: pointer; }
       @media (max-width: 767px) {
@@ -9944,34 +9944,6 @@ table {
         @media (max-width: 767px) {
           .modal-login-footer-button a {
             font-size: 12px; } }
-
-.loading-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: -o-repeating-linear-gradient(315deg, #3e6bb8 5%, #3e6bb8 5%, #26497a 35%, #26497a 30%);
-  background: repeating-linear-gradient(135deg, #3e6bb8 5%, #3e6bb8 5%, #26497a 35%, #26497a 30%);
-  /* background: repeating-linear-gradient(45deg,#3e6bb8, #00A8D2); */
-  z-index: 100; }
-
-.loading {
-  position: absolute;
-  top: 45%;
-  left: 43%;
-  width: 240px;
-  height: 240px; }
-  @media (max-width: 992px) {
-    .loading {
-      top: 35%;
-      left: 31.5%; } }
-  @media (max-width: 767px) {
-    .loading {
-      width: 160px;
-      height: 160px;
-      top: 30%;
-      left: 25%; } }
 
 .fp-watermark {
   display: none; }
@@ -10314,11 +10286,11 @@ a {
     padding: 36px 128px;
     display: inline-block;
     text-align: center;
-    color: #FFFFFF;
-    border: 8px solid #FFFFFF; }
+    color: #ffffff;
+    border: 8px solid #ffffff; }
     @media (max-width: 767px) {
       .index-banner-text {
-        padding: 24px 36px; } }
+        padding: 36px; } }
     .index-banner-text h2, .index-banner-text .h2 {
       font-size: 54px; }
       @media (max-width: 992px) {
@@ -10328,10 +10300,10 @@ a {
         .index-banner-text h2, .index-banner-text .h2 {
           font-size: 28px; } }
     .index-banner-text a {
-      color: #FFFFFF;
+      color: #ffffff;
       margin-top: 24px;
       font-size: 24px;
-      border: 1px solid #FFFFFF;
+      border: 1px solid #ffffff;
       display: inline-block;
       padding: 16px 24px;
       border-radius: 50px; }
@@ -10345,7 +10317,7 @@ a {
       .index-banner-text a:hover {
         border: none;
         background-color: #18666e;
-        color: #FFFFFF;
+        color: #ffffff;
         -webkit-transition: .6s;
         -o-transition: .6s;
         transition: .6s;
@@ -10596,7 +10568,7 @@ a {
       opacity: .5; }
   .index-health-text {
     height: 40%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 0 24px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -10659,7 +10631,7 @@ a {
       margin: 24px auto;
       margin-bottom: 0; }
       .index-footer-mobile-info a {
-        color: #FFFFFF; }
+        color: #ffffff; }
     .index-footer-mobile-copy {
       font-size: 14px; } }
 
@@ -10765,7 +10737,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FFFFFF;
+  color: #ffffff;
   background: rgba(24, 102, 110, 0.5);
   -webkit-transform: translateX(-100%);
       -ms-transform: translateX(-100%);
