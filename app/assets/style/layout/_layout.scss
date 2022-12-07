@@ -18,7 +18,7 @@
     width: 100%;
     position: fixed;
     z-index: 100;
-    background-color: #18666e;
+    background-color: $primary;
     @include pad {
         padding: 0 39px;
     }
@@ -90,8 +90,8 @@
     }
 }
 .footer {
-    color: #FFFFFF;
-    background-color: #18666e;
+    color: $white;
+    background-color: $primary;
     height: 260px;
     display: flex;
     justify-content: center;
@@ -111,7 +111,7 @@
     }
     &-list {
         a {
-            color: #FFFFFF;
+            color: $white;
         }
         img {
             height: 90px;
@@ -130,7 +130,7 @@
             padding: 0 24px;
             padding-top: 24px;
             a {
-                color: #FFFFFF;
+                color: $white;
                 font-size: 20px;
                 &:hover {
                     transition: .8s;
@@ -141,7 +141,7 @@
     }
 }
 .hamburger-menu {
-    background-color: #18666e;
+    background-color: $primary;
     opacity: 0.97;
     z-index: 100;
     width: 100%;
@@ -368,37 +368,6 @@
                 }
             }
         }
-    }
-}
-
-
-.loading-wrapper {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:repeating-linear-gradient(135deg, 
-    #3e6bb8 5%, #3e6bb8 5%, 
-    #26497a 35%, #26497a 30%);
-    /* background: repeating-linear-gradient(45deg,#3e6bb8, #00A8D2); */
-    z-index: 100;
-}
-.loading {
-    position: absolute;
-    top: 45%;
-    left: 43%;
-    width: 240px;
-    height: 240px;
-    @include pad {
-        top: 35%;
-        left: 31.5%;
-    }
-    @include mobile {
-        width: 160px;
-        height: 160px;
-        top: 30%;
-        left: 25%;
     }
 }
 
